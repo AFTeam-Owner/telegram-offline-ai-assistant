@@ -1,0 +1,12 @@
+{
+  "memory_management": {
+    "name": "Memory Management",
+    "steps": ["Receive message", "Add to memory", "Extract facts", "Update profile", "Build context", "Generate response", "Store response"],
+    "response_template": "I've added this to our conversation and updated your preferences."
+  },
+  "data_deletion": {
+    "name": "Data Deletion",
+    "steps": ["Receive request", "Confirm action", "Delete data", "Confirm completion"],
+    "response_template": "🗑️ All your data has been permanently deleted."
+  }
+}

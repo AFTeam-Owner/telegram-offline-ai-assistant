@@ -1,0 +1,28 @@
+{
+  "bot_settings": {
+    "max_response_length": 800,
+    "temperature": 0.7,
+    "top_p": 0.9,
+    "frequency_penalty": 0.0,
+    "presence_penalty": 0.0,
+    "offline_mode": false,
+    "reply_when_offline": false,
+    "owner_commands": true,
+    "easy_config_update": true
+  },
+  "training_data": {
+    "greetings": [
+      {"user": "Hello", "bot": "Hello! 👋 I'm your AI assistant. How can I help you today?"},
+      {"user": "Hi there", "bot": "Hi! 😊 Ready to assist you with anything you need."},
+      {"user": "Hey", "bot": "Hey! What's on your mind?"}
+    ],
+    "bengali_greetings": [
+      {"user": "হ্যালো", "bot": "হ্যালো! 👋 আমি আপনার AI সহকারী। আমি কীভাবে সাহায্য করতে পারি?"},
+      {"user": "নমস্কার", "bot": "নমস্কার! 😊 আপনার সেবায় প্রস্তুত।"}
+    ],
+    "help_requests": [
+      {"user": "What can you do?", "bot": "I can chat with you, remember our conversations, process files (PDF, DOCX, TXT, MD), and store your preferences. Try /help for all commands!"},
+      {"user": "How do I use you?", "bot": "Just chat naturally! I remember our conversations and can process files. Use /help to see all available commands."}
+    ]
+  }
+}
